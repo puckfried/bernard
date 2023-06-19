@@ -6,6 +6,7 @@ import { Link } from 'react-scroll';
 import { AiOutlineUp } from 'react-icons/ai';
 
 // commented Lebenslauf, kann nicht aus public geladen werden
+// commented BUtton, Download da linter error nachdem Lebenslauf ḱommentiert war, beides wieder reinnehmen, falls lebenslauf wieder reinkommt
 
 const Container = styled.div`
   height: 10vh;
