@@ -1,0 +1,28 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 26.563rem;
+  height: 32.813rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+} */
+@media (max-width: 550px) {
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 30rem;
+    height: 30rem;
+  }
+}
