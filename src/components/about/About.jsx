@@ -1,7 +1,10 @@
 /* eslint-disable no-unused-vars */
 import styled from 'styled-components';
-import bernardOne from '../../../public/images/bernardOne.jpg';
-import LebensLauft from '../../../public/download/LebensLauft.pdf';
+// import bernardOne from '../../../public/images/bernardOne.jpg';
+// import LebensLauft from '../../../public/download/LebensLauft.pdf';
+
+// commented Lebenslauf, kann nicht aus public geladen werden
+
 const Container = styled.div`
   height: 100%;
   width: 100%;
@@ -167,7 +170,7 @@ const About = () => {
       <TitleContent>About me</TitleContent>
       <ContentContainer>
         <Left>
-          <Image src={bernardOne} alt={bernardOne} />
+          {/* <Image src={bernardOne} alt={bernardOne} /> */}
         </Left>
         <Right>
           <Title>Bernard Ngassa</Title>
@@ -226,9 +229,9 @@ const About = () => {
               </ContactLeftContainer>
             </ContactRight>
           </ContactContainer>
-          <Download href={LebensLauft} downloaad={LebensLauft}>
+          {/* <Download href={LebensLauft} downloaad={LebensLauft}>
             <Button>DOWNLOAD CV</Button>
-          </Download>
+          </Download> */}
         </Right>
       </ContentContainer>
     </Container>

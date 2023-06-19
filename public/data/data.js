@@ -3,9 +3,10 @@
 // @ts-ignore
 import ouyane from '../images/ouyane.png';
 
-import Chivoiz from '../images/Chivoiz.png';
+// import Chivoiz from '../images/Chivoiz.png';
+// import gelöscht da Bild nicht existierte
 
-import Christian from '../images/Christian.png';
+import Christian from '../images/christian.png';
 
 import drigo from '../images/drigo.png';
 
@@ -80,7 +81,7 @@ export const videoPortfolio = [
     id: 2,
     title: 'Vegas pro and photoshop',
     video: 'https://www.youtube.com/watch?v=GSrgCpIpnNA',
-    img: Chivoiz,
+    img: '',
   },
   {
     id: 3,

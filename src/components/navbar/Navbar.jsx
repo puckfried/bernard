@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import LebensLauft from '../../../public/download/LebensLauft.pdf';
+// import LebensLauft from '../../../public/download/LebensLauft.pdf';
 import { Link } from 'react-scroll';
 import { AiOutlineUp } from 'react-icons/ai';
+
+// commented Lebenslauf, kann nicht aus public geladen werden
+
 const Container = styled.div`
   height: 10vh;
   width: 100vw;
@@ -117,34 +120,34 @@ const Li = styled(Link)`
     font-size: 1rem;
   }
 `;
-const Button = styled.button`
-  border: none;
-  color: black;
-  border-radius: 0.2rem;
-  padding: 0.5rem 0.6rem;
-  cursor: pointer;
-  font-weight: bold;
-  background-color: #2e388b;
-  color: white;
-  @media (max-width: 820px) {
-    font-size: 0.7rem;
-  }
-  @media (max-width: 782px) {
-    font-size: 0.65rem;
-  }
-  @media (max-width: 750px) {
-    font-size: 0.55rem;
-  }
-  @media (max-width: 750px) {
-    font-size: 0.4rem;
-  }
-  @media (max-width: 550px) {
-    font-size: 0.55rem;
-    background-color: #242c2b;
-    color: white;
-    font-weight: 1.5rem;
-  }
-`;
+// const Button = styled.button`
+//   border: none;
+//   color: black;
+//   border-radius: 0.2rem;
+//   padding: 0.5rem 0.6rem;
+//   cursor: pointer;
+//   font-weight: bold;
+//   background-color: #2e388b;
+//   color: white;
+//   @media (max-width: 820px) {
+//     font-size: 0.7rem;
+//   }
+//   @media (max-width: 782px) {
+//     font-size: 0.65rem;
+//   }
+//   @media (max-width: 750px) {
+//     font-size: 0.55rem;
+//   }
+//   @media (max-width: 750px) {
+//     font-size: 0.4rem;
+//   }
+//   @media (max-width: 550px) {
+//     font-size: 0.55rem;
+//     background-color: #242c2b;
+//     color: white;
+//     font-weight: 1.5rem;
+//   }
+// `;
 
 const MenuIconsContainer = styled.div`
   font-size: 2.25rem;
@@ -153,7 +156,7 @@ const MenuIconsContainer = styled.div`
   align-items: center;
   cursor: pointer;
 `;
-const Download = styled.a``;
+// const Download = styled.a``;
 const ScrollTopContainer = styled(Link)`
   position: fixed;
   right: 2.5%;
@@ -264,9 +267,9 @@ const Navbar = () => {
           >
             CONTACT
           </Li>
-          <Download href={LebensLauft} downloaad={LebensLauft}>
+          {/* <Download href={LebensLauft} downloaad={LebensLauft}>
             <Button>DOWNLOAD CV</Button>
-          </Download>
+          </Download> */}
         </Ul>
       </ComputerContainer>
       <HandyContainer handy="true">
@@ -345,9 +348,9 @@ const Navbar = () => {
               >
                 CONTACT
               </Li>
-              <Download href={LebensLauft} downloaad={LebensLauft}>
+              {/* <Download href={LebensLauft} downloaad={LebensLauft}>
                 <Button>DOWNLOAD CV</Button>
-              </Download>
+              </Download> */}
             </Ul>
           </UlHandyContainer>
         )}
